@@ -1,5 +1,9 @@
+import java.util.Scanner;
 public class New {
     public static void main(String[] args) {
-        System.out.println("hello");
+        Scanner in = new Scanner(System.in);
+        int a = in.nextInt();
+        int b = in.nextInt();
+        System.out.println("Sum = " + (a + b));
     }
 }
